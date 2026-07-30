@@ -1,0 +1,34 @@
+# LikeWise (Likewise Software)
+
+> Likewise Software was a Bellevue, Washington enterprise software company building storage, identity and security products that bridged Linux, Unix and Mac systems into Microsoft Active Directory environments. The company was backed by Trinity Ventures and is listed in that firm's exited portfolio as acquired. It no longer operates: there is no live website, developer portal, documentation, SDK or public API.
+
+## Status
+
+- Status: defunct / acquired. Trinity Ventures lists LikeWise under exited portfolio companies, marked "Acquired".
+- Last archived homepage: 2012-07-04 (Internet Archive).
+- likewise.com now 301-redirects to pix-media.com, an unrelated owner (probed 2026-07-19).
+- likewisesoftware.com does not resolve; likewise.io is a parked domain listed for sale.
+- Likewise Enterprise and Likewise Open (Active Directory integration) moved to BeyondTrust, per the archived likewise.com homepage of 2012-01-03.
+- Headquarters of record: 15395 SE 30th Pl, Suite 140, Bellevue, WA 98007, United States.
+
+## Products (historical, as described on the archived site)
+
+- Likewise Storage Services — OEM SMB/CIFS multi-protocol file access licensed to network storage vendors; named partners on the archived site included HP StorageWorks, Riverbed, EMC Data Domain and NetApp.
+- Likewise Data Analytics and Governance — auditing, reporting and governance over unstructured data, with a compliance resource center covering HIPAA, PCI DSS, SOX and FISMA.
+- Likewise Enterprise / Likewise Open — Active Directory integration for Linux, Unix and Mac; subsequently part of BeyondTrust.
+
+## APIs
+
+None. Likewise Software published no public API, and no API surface survives under the Likewise name. This profile carries no OpenAPI, AsyncAPI, SDK, MCP, webhook or authentication artifacts because none exist to harvest.
+
+## Archive
+
+- Archived homepage (2012-01-03): http://web.archive.org/web/20120103090412/http://likewise.com/
+- Archived homepage (2012-07-04): http://web.archive.org/web/20120704072229/http://likewise.com/
+- Trinity Ventures portfolio: https://trinityventures.com/portfolio/
+
+## Provenance
+
+generated: 2026-07-19
+method: generated
+source: apis.yml plus the archived likewise.com homepage and the Trinity Ventures portfolio listing
