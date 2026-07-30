@@ -1,22 +1,105 @@
 aid: likewise
 name: LikeWise
-description: 'LikeWise is a company surfaced as a portfolio company of trinity-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: enterprise-software. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Likewise Software was a Bellevue, Washington enterprise software company building storage,
+  identity and security products that bridged Linux, Unix and Mac systems into Microsoft Active Directory
+  environments. Its OEM line, Likewise Storage Services, supplied SMB/CIFS multi-protocol file access to
+  network storage vendors including HP StorageWorks, Riverbed, EMC Data Domain and NetApp, while Likewise
+  Data Analytics and Governance covered auditing, reporting and compliance (HIPAA, PCI DSS, SOX, FISMA)
+  over unstructured data. Its Likewise Enterprise and Likewise Open Active Directory integration products
+  moved to BeyondTrust. Backed by Trinity Ventures, the company was acquired and no longer operates: there
+  is no live website, developer portal, documentation or public API, and the likewise.com domain now
+  redirects to an unrelated owner.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://trinity-ventures.transforms.svdcdn.com/production/images/portfolio/t_0027_likewise_logo.png
 url: https://raw.githubusercontent.com/api-evangelist/likewise/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - trinity-ventures
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: defunct-acquired-no-api-surface
+x-status: defunct
+x-status-detail: 'Listed as Acquired in the Trinity Ventures exited portfolio. The last archived likewise.com
+  homepage is 2012-07-04; the live domain now 301-redirects to pix-media.com (probed 2026-07-19), and
+  likewisesoftware.com does not resolve. No successor developer surface is operated under the Likewise
+  name.'
+x-successor: 'Likewise Enterprise and Likewise Open moved to BeyondTrust (per the archived likewise.com
+  homepage, 2012-01-03).'
+x-headquarters: 15395 SE 30th Pl, Suite 140, Bellevue, WA 98007, United States
+x-archived-website: http://web.archive.org/web/20120103090412/http://likewise.com/
+x-enrichment:
+  last_run: '2026-07-19'
+  outcome: no-live-api-surface
+  probed:
+  - url: https://likewise.com/
+    status: 301
+    note: redirects to pix-media.com (unrelated owner)
+  - url: https://likewisesoftware.com/
+    status: 0
+    note: does not resolve
+  - url: https://likewise.io/
+    status: 307
+    note: parked, listed for sale on Afternic
+  not_applicable:
+  - openapi
+  - asyncapi
+  - packages
+  - sdks
+  - well-known
+  - mcp
+  - overlays
+  - grpc
+  - conformance
+  - errors
+  - lifecycle
+  - scopes
+  - authentication
+  - security
+  - sandbox
+  - conventions
+  - changelog
+  - cli
+  - components
+  - data-model
+  - decline-codes
+  - skills
+  - arazzo
+  - integrations
+  - agentic-access
+  not_applicable_reason: Company is defunct; no live host, documentation, registry package or specification
+    exists to search, generate or derive from. Domain-security probing was deliberately skipped because
+    likewise.com is now owned by an unrelated party and its posture would not describe this company.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Enterprise Software
+- Storage
+- Identity
+- Security
+- Active Directory
+- Compliance
+- Acquired
+- Defunct
 apis: []
+common:
+- type: LLMsTxt
+  name: LikeWise llms.txt
+  url: llms/likewise-llms.txt
+- type: Archive
+  name: Archived Likewise Software homepage (Internet Archive)
+  url: http://web.archive.org/web/20120103090412/http://likewise.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
