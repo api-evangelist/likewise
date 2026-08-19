@@ -79,7 +79,7 @@ x-enrichment:
   not_applicable_reason: Company is defunct; no live host, documentation, registry package or specification
     exists to search, generate or derive from. Domain-security probing was deliberately skipped because
     likewise.com is now owned by an unrelated party and its posture would not describe this company.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
