@@ -9,6 +9,17 @@ description: 'Likewise Software was a Bellevue, Washington enterprise software c
   moved to BeyondTrust. Backed by Trinity Ventures, the company was acquired and no longer operates: there
   is no live website, developer portal, documentation or public API, and the likewise.com domain now
   redirects to an unrelated owner.'
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
