@@ -64,33 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-**Status: defunct / acquired — no live API surface.**
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-Likewise Software was a Bellevue, Washington enterprise software company building storage, identity and
-security products that bridged Linux, Unix and Mac systems into Microsoft Active Directory environments.
+Likewise Software was a Bellevue, Washington enterprise software company building storage, identity and security products that bridged Linux, Unix and Mac systems into Microsoft Active Directory environments. Its OEM line, Likewise Storage Services, supplied SMB/CIFS multi-protocol file access to network storage vendors including HP StorageWorks, Riverbed, EMC Data Domain and NetApp, while Likewise Data Analytics and Governance covered auditing, reporting and compliance (HIPAA, PCI DSS, SOX, FISMA) over unstructured data. Its Likewise Enterprise and Likewise Open Active Directory integration products moved to BeyondTrust. Backed by Trinity Ventures, the company was acquired and no longer operates: there is no live website, developer portal, documentation or public API, and the likewise.com domain now redirects to an unrelated owner.
 
-- **Likewise Storage Services** — OEM SMB/CIFS multi-protocol file access licensed to network storage
-  vendors (HP StorageWorks, Riverbed, EMC Data Domain and NetApp were named on the archived site).
-- **Likewise Data Analytics and Governance** — auditing, reporting and governance over unstructured data,
-  with a compliance resource center covering HIPAA, PCI DSS, SOX and FISMA.
-- **Likewise Enterprise / Likewise Open** — Active Directory integration for Linux, Unix and Mac;
-  subsequently part of BeyondTrust.
+**Areas:** Company · Enterprise Software · Storage · Identity · Security · Active Directory · Compliance · Acquired · Defunct
 
-Backed by: trinity-ventures — listed as **Acquired** in the Trinity Ventures exited portfolio.
+## LikeWise on APIs.io (historical record)
 
-## Why this repo has no artifacts
+Everything profiled for LikeWise is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/likewise/](https://apis.io/providers/likewise/)** — or go straight to one of the APIs or properties below.
 
-The enrichment pipeline ran on 2026-07-19 and found no live surface to harvest:
+## API Evangelist rating
 
-| Probe | Result |
-|---|---|
-| `https://likewise.com/` | 301 → `pix-media.com` (unrelated owner) |
-| `https://likewisesoftware.com/` | does not resolve |
-| `https://likewise.io/` | 307 → parked, listed for sale |
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
 
-There is no OpenAPI, AsyncAPI, SDK, package, MCP server, well-known document, changelog, CLI or
-authentication surface to search, generate or derive from — so none were fabricated. Domain-security
-probing was deliberately skipped: `likewise.com` now belongs to an unrelated party and its posture would
-not describe this company.
+## How this profile is made
 
-Last archived homepage: <http://web.archive.org/web/20120704072229/http://likewise.com/>
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for LikeWise: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/likewise/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
